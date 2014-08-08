@@ -12,8 +12,8 @@ nbx.auth = false;
 nbx.sync_string = "eyJHRHJpdmUiOnsia2V5IjoiIiwic2NvcGUiOiIiLCJhcHBfbmFtZSI6IiJ9LCJEcm9wYm94Ijp7ImtleSI6Im5sc3pqNXhyaGxiMWs1cCIsInNlY3JldCI6ImZvOGEyNDRzZ2RmdGpiZiIsImFwcF9uYW1lIjoidGpiZXRhIn19"; 
 nbx.sync_object = { 
 	"Dropbox": { 
-	  "key": "nlszj5xrhlb1k5p", 
-	  "secret": "fo8a244sgdftjbf", 
+	  "key": "qzspy37mozyi016", 
+	  "secret": "wiyhk2dt94q54yp", 
 	  "app_name": "testlearnzoro" 
 	}
 	//"synchronous": true   // changed 6-10-2014 from commented out (and no comma) to see if this is part of prob auth'ing other users
