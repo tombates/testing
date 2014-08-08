@@ -1,7 +1,14 @@
-// why is the code not what is being served i'm going crazy here...Our NimbusBase experimental code
-// Let's encapsulate this stuff in another namespace
-var nbx = {};
+/* The code for interacting with the NimbusBase library.
+*  Unfortunately I will be moving on from NimbusBase for further versions as it seems
+*  to be unstable/unreliable in some ways and the support is not what it should be.
+*
+*  I'm still attracted to the idea of storing jots on the user's cloud storage but
+*  this does not seem realistically scalable as all filtering must be done client-side
+*  and there is no good way to get just a subset of the jots from Dropbox. The next
+*  version will be database driven or possibly node/MongoDB driven.
+*/
 
+var nbx = {};
 nbx.linkDropbox;
 nbx.Jots;  // a model (table) for the jots
 nbx.Tags;  // current tags
@@ -16,7 +23,6 @@ nbx.sync_object = {
 	  "secret": "wiyhk2dt94q54yp", 
 	  "app_name": "testlearnzoro" 
 	}
-	//"synchronous": true   // changed 6-10-2014 from commented out (and no comma) to see if this is part of prob auth'ing other users
 };
 
 nbx.userConnectRequest = function(serviceName) {
