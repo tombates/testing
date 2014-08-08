@@ -14,7 +14,7 @@ nbx.sync_object = {
 	"Dropbox": { 
 	  "key": "nlszj5xrhlb1k5p", 
 	  "secret": "fo8a244sgdftjbf", 
-	  "app_name": "tjbeta" 
+	  "app_name": "testlearnzoro" 
 	}
 	//"synchronous": true   // changed 6-10-2014 from commented out (and no comma) to see if this is part of prob auth'ing other users
 };
