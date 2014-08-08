@@ -9,6 +9,7 @@
 */
 
 var nbx = {};
+
 nbx.linkDropbox;
 nbx.Jots;  // a model (table) for the jots
 nbx.Tags;  // current tags
